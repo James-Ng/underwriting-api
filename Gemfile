@@ -4,7 +4,7 @@ gem 'rails', '4.2.2'
 
 gem 'rails-api', '0.4.0'
 
-gem 'sqlite3', '1.3.11'
+
 
 group :test, :development do
   gem 'rspec-rails', '3.1.0'
@@ -14,6 +14,7 @@ group :test, :development do
   gem 'shoulda-matchers', '2.8.0', require: false
   gem 'simplecov', :require => false
   gem 'database_cleaner'
+  gem 'sqlite3', '1.3.11'
 end
 group :production do
   gem 'pg'
