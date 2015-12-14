@@ -4,9 +4,6 @@ gem 'rails', '4.2.2'
 
 gem 'rails-api', '0.4.0'
 
-gem 'spring', '1.5.0', :group => :development
-
-
 gem 'sqlite3', '1.3.11'
 
 group :test, :development do
@@ -15,4 +12,14 @@ group :test, :development do
   gem 'ffaker', '2.1.0'
   gem 'guard-rspec', '4.6.4', require: false
   gem 'shoulda-matchers', '2.8.0', require: false
+  gem 'simplecov', :require => false
+  gem 'database_cleaner'
+end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+group :development do
+  gem 'rubocop', require: false
+  gem 'spring', '1.5.0'
 end

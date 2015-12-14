@@ -20,4 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  errors:
+    borrower:
+      low_credit_score: "Sorry, your credit score is below the minimum required to obtain a mortgage."
+      high_ratio: "Your current housing expense is currently too high. We can't find any loan programs for you."
+      property_eligibility: "Sorry, your subject property is not eligible. We only offer loan programs for residential 1-4 units at this time."
+

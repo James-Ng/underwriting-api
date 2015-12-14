@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151212181804) do
+ActiveRecord::Schema.define(version: 20151213055858) do
 
   create_table "borrowers", force: :cascade do |t|
     t.string   "first_name"
@@ -21,8 +21,24 @@ ActiveRecord::Schema.define(version: 20151212181804) do
     t.integer  "base_income"
     t.integer  "rental_income"
     t.integer  "commission"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.string   "full_address"
+    t.float    "mortgage_payment"
+    t.float    "mortgage_insurance"
+    t.float    "homeowner_insurance"
+    t.float    "property_tax"
+    t.float    "HOA_due"
+    t.integer  "property_type_id"
+  end
+
+  add_index "borrowers", ["property_type_id"], name: "index_borrowers_on_property_type_id"
+
+  create_table "property_types", force: :cascade do |t|
+    t.string   "name"
+    t.boolean  "is_active",  default: true
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
   end
 
 end

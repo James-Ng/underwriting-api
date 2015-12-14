@@ -44,5 +44,8 @@ module UnderwritingApi
     end
 
     config.autoload_paths += %W(\#{config.root}/lib)
+
+    config.i18n.enforce_available_locales = true
+    config.i18n.default_locale = :en
   end
 end
