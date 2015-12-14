@@ -1,5 +1,5 @@
 # author : Binh Nguyen
-class BorrowerController < ApplicationController
+class BorrowersController < ApplicationController
   #create underwriting for borrower
   def create
     @borrower = Borrower.new(borrower_params)

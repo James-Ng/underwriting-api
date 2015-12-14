@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe BorrowerController, :type => :controller do
+RSpec.describe BorrowersController, :type => :controller do
 
   describe 'POST #create' do
     context 'when is successfully created' do
