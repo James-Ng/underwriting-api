@@ -1,0 +1,3 @@
+general:
+  artifacts:
+    - "~/simplecov" # relative to the user's home directory
