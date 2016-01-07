@@ -6,7 +6,7 @@ RSpec.describe PropertyType, :type => :model do
   subject { @property_type }
 
   it { should respond_to(:name) }
-  it { should validate_presence_oft(:name) }
+  it { should validate_presence_of(:name) }
 
   it { should respond_to(:is_active) }
 
