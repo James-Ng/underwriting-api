@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/jamesnguyenvnn/underwriting-api.png?label=ready&title=Ready)](https://waffle.io/jamesnguyenvnn/underwriting-api)
 # underwriting-api
 This is a test from Mortgage Club. For this test, I have enhancement about property_type.  
 
