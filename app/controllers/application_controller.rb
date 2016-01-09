@@ -4,6 +4,8 @@ class ApplicationController < ActionController::API
 
   def index
     p 'feature/#3'
+    p 'kj'
+    p 'close issue #3'
     p 'close issue #3'
     p 'close issue #3'
     p 'close issue #3'
