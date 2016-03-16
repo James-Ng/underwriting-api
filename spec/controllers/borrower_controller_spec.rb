@@ -1,7 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe BorrowersController, :type => :controller do
-
+RSpec.describe BorrowersController, type: :controller do
   describe 'POST #create' do
     context 'when is successfully created' do
       # create mock random data for testing
@@ -54,8 +53,7 @@ RSpec.describe BorrowersController, :type => :controller do
     end
   end
 
-
-  describe "GET #index" do
+  describe 'GET #index' do
     before(:each) do
       @property_type = FactoryGirl.create(:property_type, is_active: true)
       3.times { FactoryGirl.create(:borrower, property_type_id: @property_type.id) }
@@ -68,7 +66,5 @@ RSpec.describe BorrowersController, :type => :controller do
     end
 
     it { should respond_with 200 }
-
   end
-
 end

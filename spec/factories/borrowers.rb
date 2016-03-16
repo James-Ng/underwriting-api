@@ -15,5 +15,4 @@ FactoryGirl.define do
     property_tax 1.5
     HOA_due 1.5
   end
-
 end

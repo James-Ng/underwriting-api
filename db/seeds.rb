@@ -6,9 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 PropertyType.create!([
-                         { name: "Single Family home", is_active: true },
-                         { name: "Duplex", is_active: true },
-                         { name: "Triplex", is_active: true },
-                         { name: "4-plex", is_active: true },
-                         { name: "condo", is_active: false }
-                     ])
+  { name: 'Single Family home', is_active: true },
+  { name: 'Duplex', is_active: true },
+  { name: 'Triplex', is_active: true },
+  { name: '4-plex', is_active: true },
+  { name: 'condo', is_active: false }
+])
