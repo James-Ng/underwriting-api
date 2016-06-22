@@ -48,4 +48,4 @@ Copyright © 2015 jamesnguyenvnn. It is free software, and may be redistributed 
 
 ##About jamesnguyenvnn
 
-Please see https://vn.linkedin.com/in/jamesnguyenvnn
+Please see https://www.linkedin.com/in/james-ng
