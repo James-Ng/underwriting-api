@@ -43,7 +43,7 @@ And press 'enter', simplecov will grenerate coverage folder. You can open index.
 ## Deployment instructions ( using heroku )
 
 ## License
-Copyright © 2015 jamesnguyenvnn. It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.
+Copyright © 2015 James-Ng. It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.
 
 ##About jamesnguyenvnn
 
