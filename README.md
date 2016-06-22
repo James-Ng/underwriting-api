@@ -1,5 +1,4 @@
 # underwriting-api
-This is a test from Mortgage Club. For this test, I have enhancement about property_type.  
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
