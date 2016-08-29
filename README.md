@@ -41,6 +41,9 @@ Or use rspec to run test
 And press 'enter', simplecov will grenerate coverage folder. You can open index.html to see the coverage. 
 
 ## Deployment instructions ( using heroku )
+Check it at 
+    
+    https://staging-underwriting.herokuapp.com
 
 ## License
 Copyright © 2015 James-Ng. It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.
